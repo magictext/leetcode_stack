@@ -5,7 +5,6 @@ import java.util.List;
 
 public class Solution {
 	static ArrayList<Integer> arrayList = new ArrayList<>();
-
 	public List<Integer> inorderTraversal(TreeNode root) {
 		thenext(root);
 		ArrayList<Integer> arrayList1 = (ArrayList<Integer>) arrayList.clone();
